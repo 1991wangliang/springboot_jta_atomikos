@@ -1,8 +1,8 @@
-//新建数据库test01,并且指定字符编码,默认排序规则
+-- 新建数据库test01,并且指定字符编码,默认排序规则
 DROP DATABASE IF EXISTS test01;
 CREATE DATABASE test01 CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-//建立user表用于测试
+-- 建立user表用于测试
 DROP TABLE IF EXISTS USER;
 CREATE TABLE USER(
 u_id INT(4) AUTO_INCREMENT,
@@ -11,11 +11,11 @@ age INT(4),
 PRIMARY KEY(u_id)
 )CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-//新建数据库test02,并且指定字符编码,默认排序规则
-DROP DATABASE IF EXISTS test01;
-CREATE DATABASE test01 CHARACTER SET utf8 COLLATE utf8_general_ci;
+-- 新建数据库test02,并且指定字符编码,默认排序规则
+DROP DATABASE IF EXISTS test02;
+CREATE DATABASE test02 CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-//建立user表用于测试
+-- 建立user表用于测试
 DROP TABLE IF EXISTS USER;
 CREATE TABLE USER(
 u_id INT(4) AUTO_INCREMENT,
